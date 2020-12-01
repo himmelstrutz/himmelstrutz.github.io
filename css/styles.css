@@ -1,1 +1,16 @@
 /* Styles for Smells Like Team Spirit © 2020 */
+#navbarSupportedContent ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.navbarSupportedContent {
+	max-height: 50px;
+}
+
+#profil {
+	width: 220px;
+}
