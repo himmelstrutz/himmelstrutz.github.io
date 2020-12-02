@@ -1,4 +1,5 @@
 /* Styles for Smells Like Team Spirit © 2020 */
+/*stretches width to move profile right */
 #navbarSupportedContent ul {
   display: flex;
   margin: 0;
@@ -10,7 +11,7 @@
 .navbarSupportedContent {
 	max-height: 50px;
 }
-
+ /*displays profile right in navbar*/
 #profil {
 	width: 220px;
 }
