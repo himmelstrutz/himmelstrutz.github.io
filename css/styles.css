@@ -8,25 +8,69 @@
 html,
 body {
   height: 100%;
+  font-family: "Roboto";
 }
 
-body {
-  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
+#layerbackground_1 {
+  background-color: #FFB7A0;
+  padding: 10%;
+  text-align: center;
 }
 
-#topbar {
-    background-color: #f5f5f5;
-    position: relative;
-
-    padding: 15px;
-    font-size: 20px;
+#layerbackground_2 {
+  background-color: #9B8080;
+  padding: 10%;
+  text-align: center;
 }
 
-#signin {
-   margin-top: 250px;
+h2 {
+  color: white;
+}
+
+h6 {
+  color: #EC4D1D;
+  padding-left: 30%;
+}
+
+#face_recognition_logo {
+  color: #9B8080;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+#logo_2 {
+  display: block;
+  text-align: center;
+}
+
+#frontpage_description_1 {
+  color: white;
+  padding: 5%;
+}
+
+#sign_in_button {
+  background-color: #A6B579;
+  border-radius: 25px;
+  margin-bottom: 5%;
+}
+
+#register_button {
+  background-color: #DF8063;
+  border-radius: 25px;
+  margin-bottom: 25%;
+}
+
+#sign_in_text {
+  color: #7A7A7A;
+}
+
+#footer_text {
+  color: #ffffff;
 }
 
 .form-signin {
@@ -53,11 +97,17 @@ body {
   margin-bottom: 5px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  border-radius: 25px;
+  box-shadow: 2px 2px 6px 0px #dbd7d7 inset;
+
+
 }
 .form-signin input[type="password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  border-radius: 25px;
+  box-shadow: 2px 2px 6px 0px #dbd7d7 inset;
 }
 
 .bd-placeholder-img {
@@ -70,11 +120,50 @@ body {
   }
 
   #alternative {
-      padding-top: 10px;
       font-style: bold;
-      color: white;
       text-align: center;
   }
+
+  /*stretches width to move profile right */
+#navbarSupportedContent ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 5px 6px -6px #999;
+    -moz-box-shadow: 0 5px 6px -6px #999;
+    box-shadow: 0 5px 6px -6px #999;
+}
+
+.navbarSupportedContent {
+	max-height: 50px;
+}
+ /*displays profile right in navbar*/
+#profil {
+	width: 300px;
+}
+
+.navbarDropdown.nav-link.dropdown-toggle{
+	color:green;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    color: #9B8080;
+}
 
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
