@@ -11,16 +11,16 @@ body {
   font-family: "Roboto";
 }
 
-#layerbackground_1 {
+.layerbackground_1 {
   background-color: #FFB7A0;
-  padding: 10%;
-  text-align: center;
+  padding: 4rem;
+}
+.layerbackground_1 > h6,h2 {
+  margin-bottom: 1rem;
 }
 
 #layerbackground_2 {
   background-color: #9B8080;
-  padding: 10%;
-  text-align: center;
 }
 
 h2 {
@@ -29,7 +29,7 @@ h2 {
 
 h6 {
   color: #EC4D1D;
-  padding-left: 30%;
+
 }
 
 #face_recognition_logo {
@@ -50,7 +50,6 @@ h6 {
 
 #frontpage_description_1 {
   color: white;
-  padding: 5%;
 }
 
 #sign_in_button {
@@ -71,6 +70,10 @@ h6 {
 
 #footer_text {
   color: #ffffff;
+}
+
+#signin {
+  padding: 2rem
 }
 
 .form-signin {
@@ -147,6 +150,10 @@ h6 {
 	width: 300px;
 }
 
+#menulink {
+  color: #9B8080;
+}
+
 .navbarDropdown.nav-link.dropdown-toggle{
 	color:green;
 }
@@ -165,8 +172,29 @@ h6 {
     color: #9B8080;
 }
 
+footer > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#browser > .row > .col {
+  max-width: 50%;
+}
+
+  @media (max-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+    #browser {
+      display: none;
+    }
+  }
+
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
+    }
+    #mobile {
+      display: none;
     }
   }
