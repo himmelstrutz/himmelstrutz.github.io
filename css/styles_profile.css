@@ -244,6 +244,28 @@ footer>div {
     font-size: 3.5rem;
   }
 }
+
+/* Navbar*/
+ .navbar-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    left: 0;
+    z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+    width: inherit;
+}
+
+.navbar-wrapper .navbar {
+    width: 100% !important;
+}
+
 .layerbackground_1 {
   background-color: #FFB7A0;
   padding: 4rem;
