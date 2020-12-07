@@ -8,26 +8,9 @@ html, body {
   height: 100%;
   font-family: "Roboto";
 }
- /* Code for menu stretching */'
-.navbar-wrapper {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100% !important;
-    left: 0;
-    z-index: 20;
-}
+ 
 
 
-.navbar-wrapper > .container {
-    padding-right: 0;
-    padding-left: 0;
-    width: inherit;
-}
-
-.navbar-wrapper .navbar {
-    width: 100% !important;
-}
 
 /* activities page*/
 
@@ -265,4 +248,24 @@ footer>div {
 
 .modal-header {
   background-color: #A6B579;
+}
+
+.navbar-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    left: 0;
+    z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+    width: inherit;
+}
+
+.navbar-wrapper .navbar {
+    width: 100% !important;
 }
