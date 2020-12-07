@@ -9,8 +9,6 @@
 html,
 body {
   height: 100%;
-font-size: 20px;
-color: #7A7A7A;
 }
 
 .layerbackground_1 {
@@ -192,6 +190,11 @@ footer > div {
     #browser {
       display: none;
     }
+
+.activity {
+padding-left: 15%;
+padding-right: 15%;
+}
   }
 
   @media (min-width: 768px) {
@@ -201,4 +204,6 @@ footer > div {
     #mobile {
       display: none;
     }
+
+
   }
