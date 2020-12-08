@@ -32,6 +32,7 @@
   </head>
 <body>
   <div class="container">
+    <div class="row">
      <div class="navbar-wrapper">
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -68,6 +69,7 @@
         </div>
       </nav>
     </div>
+  </div>
 <!--Calendar -->
     <div class="col-10" style="margin-left:16.67%;margin-bottom:17px;margin-top:100px;">
       <button class="btn btn-labeled btn-info" data-target="#myModal" data-toggle="modal" type="button"><span class="btn-label"><i aria-hidden="true" class="fa fa-plus"></i></span> Skapa aktivitet</button>
@@ -84,7 +86,7 @@
           <li class="list-inline-item"><i aria-hidden="true" class="fa fa-clock-o"></i> 17:30- 19:30</li>
           <li class="list-inline-item"><i aria-hidden="true" class="fa fa-location-arrow"></i> Digitalt</li>
         </ul>
-        <p>Vi möts i en skrivargemenskap där alla har helt olika erfarenheter av att skriva, men en lust att utrycka sig och leka med ord.​​​​​​ Det finns lite regler men ingen kritik. Det blir många små lekfulla övningar som inehåller förslag att inspireras av men får lov att ta den väg det vill...</p><button class="btn btn-info" type="button">Mer information</button>
+        <p>Vi möts i en skrivargemenskap där alla har helt olika erfarenheter av att skriva, men en lust att utrycka sig och leka med ord.​​​​​​ Det finns lite regler men ingen kritik. Det blir många små lekfulla övningar som inehåller förslag att inspireras av men får lov att ta den väg det vill...</p><button class="btn btn-info" id="option_button" type="button">Mer information</button>
       </div>
     </div>
     <div class="row row-striped">
@@ -99,7 +101,7 @@
           <li class="list-inline-item"><i aria-hidden="true" class="fa fa-clock-o"></i> 19:00 - 21:00</li>
           <li class="list-inline-item"><i aria-hidden="true" class="fa fa-location-arrow"></i> Verkstan</li>
         </ul>
-        <p>Knyppla, måla ägg, näverslöjda, virka m.m. Endast din fantasi sätter gränser!</p><button class="btn btn-info" type="button">Mer information</button>
+        <p>Knyppla, måla ägg, näverslöjda, virka m.m. Endast din fantasi sätter gränser!</p><button class="btn btn-info" id="option_button" type="button">Mer information</button>
       </div>
     </div>
     <div class="row row-striped">
@@ -114,7 +116,7 @@
           <li class="list-inline-item"><i aria-hidden="true" class="fa fa-clock-o"></i> 14:00 - 16:00</li>
           <li class="list-inline-item"><i aria-hidden="true" class="fa fa-location-arrow"></i> Minigolfbanan</li>
         </ul>
-        <p>Minigolfglädje med glada gänget.</p><button class="btn btn-info" type="button">Mer information</button>
+        <p>Minigolfglädje med glada gänget.</p><button class="btn btn-info" id="option_button" type="button">Mer information</button>
       </div>
     </div>
     <div class="row row-striped">
@@ -129,7 +131,7 @@
           <li class="list-inline-item"><i aria-hidden="true" class="fa fa-clock-o"></i> 19:00 - 22:00</li>
           <li class="list-inline-item"><i aria-hidden="true" class="fa fa-location-arrow"></i> Bullen</li>
         </ul>
-        <p>Häng med och rulla hatt. Skåla, sjung och dra lite rövarhistorier med oss!</p><button class="btn btn-info" type="button">Mer information</button>
+        <p>Häng med och rulla hatt. Skåla, sjung och dra lite rövarhistorier med oss!</p><button class="btn btn-info" id="option_button" type="button">Mer information</button>
       </div>
     </div>
     <div class="row row-striped">
@@ -144,7 +146,7 @@
           <li class="list-inline-item"><i aria-hidden="true" class="fa fa-clock-o"></i> 11:00 - 12:00</li>
           <li class="list-inline-item"><i aria-hidden="true" class="fa fa-location-arrow"></i> Digitalt</li>
         </ul>
-        <p>Vi ber tillsammans om syndernas förlåtelse för gårdagens skörlevnad..</p><button class="btn btn-info" type="button">Mer information</button>
+        <p>Vi ber tillsammans om syndernas förlåtelse för gårdagens skörlevnad..</p><button class="btn btn-info" id="option_button" type="button">Mer information</button>
       </div>
     </div>
     <div class="row row-striped">
@@ -159,7 +161,7 @@
           <li class="list-inline-item"><i aria-hidden="true" class="fa fa-clock-o"></i> 13:30 - 15:30</li>
           <li class="list-inline-item"><i aria-hidden="true" class="fa fa-location-arrow"></i> Pildammsparken</li>
         </ul>
-        <p>Ta med ditt klot och spela några rundor med glada gubbar och kvinns.</p><button class="btn btn-info" type="button">Mer information</button>
+        <p>Ta med ditt klot och spela några rundor med glada gubbar och kvinns.</p><button class="btn btn-info" id="option_button" type="button">Mer information</button>
       </div>
     </div>
   </div>
@@ -217,21 +219,7 @@
         </div>
       </div>
     </div>
-    <div class="row p-5" id="layerbackground_2">
-      <div class="row justify-content-center text-center"><img alt="Traffpunkten" class="h3 mb-3" id="logo_2" src="./img/logo_inverted.png"></div>
-      <div class="row justify-content-center text-center">
-        <p class="h4 mb-2 font-weight-light" id="footer_text">Om träffpunkten</p>
-      </div>
-      <div class="row justify-content-center text-center">
-        <p class="h4 mb-2 font-weight-light" id="footer_text">Säkerhetspolicy</p>
-      </div>
-      <div class="row justify-content-center text-center">
-        <p class="h4 mb-2 font-weight-light" id="footer_text">FAQ</p>
-      </div>
-      <div class="row justify-content-center text-center">
-        <p class="h4 mb-2 font-weight-light" id="footer_text">Kontakt</p>
-      </div>
-    </div>
+
   </footer><!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">

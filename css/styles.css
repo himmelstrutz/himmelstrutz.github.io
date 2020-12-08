@@ -8,6 +8,7 @@
 html, body {
   height: 100%;
   font-family: "Roboto";
+  background-color: #FFF9F8;
 }
 .layerbackground_1 {
   background-color: #FFB7A0;
@@ -216,4 +217,12 @@ footer>div {
 }
 .modal-header {
   background-color: #A6B579;
+}
+
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; 
+  z-index: 20;
 }
