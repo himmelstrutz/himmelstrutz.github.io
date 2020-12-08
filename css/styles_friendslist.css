@@ -10,6 +10,13 @@ html, body {
 }
 /* Chat page*/
 
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
 .row-striped:nth-of-type(odd) {
   background-color: #efefef;
   border-left: 4px #9B8080 solid;
@@ -77,7 +84,7 @@ html, body {
   font-size: 14px;
 }
 .card-img-top {
-  margin-top: 11px;
+  margin-top: 11px !important;
   max-width: 200px;
   border: 1px solid #A6B579;
   border-radius: 4px;
@@ -464,28 +471,20 @@ footer>div {
   }
 }
 
-.navbar-wrapper {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100% !important;
-    left: 0;
-    z-index: 20;
-}
-
 .mt-4, .my-4 {
     margin-top: 100px !important;
     text-align: center;
     color:#606C3B;
 }
 
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-    padding-right: 0;
-    padding-left: 0;
-    width: inherit;
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; 
+  z-index: 20;
 }
 
-.navbar-wrapper .navbar {
-    width: 100% !important;
-}
+
+
+

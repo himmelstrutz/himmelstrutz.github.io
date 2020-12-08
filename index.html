@@ -23,6 +23,7 @@
 <body>
 	<div class="container">
 		<div class="row">
+			<div class="navbar-wrapper">
 			<nav class="navbar navbar-expand-lg navbar-light bg-white">
 				<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button> <a class="navbar-brand" href="#"><img alt="Traffpunkten" id="logo" src="./img/logo.png"></a>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -46,6 +47,7 @@
 				</div>
 			</nav>
 		</div>
+		</div>
 		<div class="row">
 			<div class="col pl-0 pr-0"><img alt="friends taking a photograph" height="100%" src="img/background_1.jpg" width="100%"></div>
 		</div>
@@ -59,9 +61,14 @@
 			</div>
 			<div class="row" id="signin">
 				<form class="form-signin">
-					<p class="h6 mb-3" id="sign_in_text">LOGGA IN</p><img alt="" class="mb-2" height="100" id="face_recognition_logo" src="img/face_recognition.png" width="100">
-					<h5 class="h6 mb-3" id="sign_in_text">Identifiera dig själv</h5><label class="sr-only" for="inputPhone">Telefonnummer</label> <input autofocus="" class="form-control" id="inputNumber" placeholder="+46" required="" type="tel"> <label class="sr-only" for="inputCode">Code</label> <input class="form-control" id="inputPassword" placeholder="Bekräftelsekod" required="" type="password"> <button class="btn btn-lg btn-primary btn-block" id="sign_in_button" type="submit">Logga in</button>
-					<p id="sign_in_text">------ ELLER ------</p><button class="btn btn-lg btn-success btn-block" id="register_button" type="submit">Registrera</button>
+					<p class="h6 mb-3" id="sign_in_text">LOGGA IN</p>
+					<img id="face_recognition_logo" alt="" class="mb-2" height="100" src="img/face_recognition.png" width="100">
+
+					<h5 id="sign_in_text" class="h6 mb-3 ">Identifiera dig själv</h5>
+					<label class="sr-only" for="inputPhone">Telefonnummer</label> <input autofocus="" class="form-control" id="inputNumber" placeholder="+46" required="" type="tel"> <label class="sr-only" for="inputCode">Code</label> <input class="form-control" id="inputPassword" placeholder="Bekräftelsekod" required="" type="password"> <button id="sign_in_button" onclick="location.href = 'home.html';" class="btn btn-lg btn-primary btn-block" type="submit">Logga in</button>
+
+					<p id="sign_in_text">------ ELLER ------</p>
+					<button id="register_button" class="btn btn-lg btn-success btn-block" type="submit">Registrera</button>
 				</form>
 			</div>
 		</section>
@@ -69,9 +76,14 @@
 			<div class="row">
 				<div class="col" id="signin">
 					<form class="form-signin">
-						<p class="h6 mb-3" id="sign_in_text">LOGGA IN</p><img alt="" class="mb-2" height="100" id="face_recognition_logo" src="img/face_recognition.png" width="100">
-						<h5 class="h6 mb-3" id="sign_in_text">Identifiera dig själv</h5><label class="sr-only" for="inputPhone">Telefonnummer</label> <input autofocus="" class="form-control" id="inputNumber" placeholder="+46" required="" type="tel"> <label class="sr-only" for="inputCode">Code</label> <input class="form-control" id="inputPassword" placeholder="Bekräftelsekod" required="" type="password"> <button class="btn btn-lg btn-primary btn-block" id="sign_in_button" type="submit">Logga in</button>
-						<p id="sign_in_text">------ ELLER ------</p><button class="btn btn-lg btn-success btn-block" id="register_button" type="submit">Registrera</button>
+						<p class="h6 mb-3 " id="sign_in_text">LOGGA IN</p>
+						<img id="face_recognition_logo" alt="" class="mb-2" height="100" src="img/face_recognition.png" width="100">
+	
+						<h5 id="sign_in_text" class="h6 mb-3 ">Identifiera dig själv</h5>
+						<label class="sr-only" for="inputPhone">Telefonnummer</label> <input autofocus="" class="form-control" id="inputNumber" placeholder="+46" required="" type="tel"> <label class="sr-only" for="inputCode">Code</label> <input class="form-control" id="inputPassword" placeholder="Bekräftelsekod" required="" type="password"> <button id="sign_in_button"  onclick="location.href = 'home.html';" class="btn btn-lg btn-primary btn-block" type="submit">Logga in</button>
+	
+						<p id="sign_in_text">------ ELLER ------</p>
+						<button id="register_button" class="btn btn-lg btn-success btn-block"  onclick="location.href = '#';" type="submit">Registrera</button>
 					</form>
 				</div>
 				<div class="col justify-content-center layerbackground_1">
