@@ -18,7 +18,7 @@ html, body {
   width: 60%;
 }
 
-#option_button {
+#option_button, #addClass, #addClass2, #addClass3, #addClass4, #addClass5, #addClass6 {
   background-color: #A6B579;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -159,6 +159,7 @@ html, body {
 }
 .popup-box-on {
   display: block !important;
+  z-index:1000;
 }
 .popup-box .popup-head {
   background-color: #fff;
